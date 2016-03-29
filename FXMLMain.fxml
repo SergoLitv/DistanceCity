@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="panel" prefHeight="602.0" prefWidth="860.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kruskal.FXMLControler">
+   <children>
+      <ImageView fx:id="image" fitHeight="602.0" fitWidth="894.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Music/umap.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="run" layoutX="79.0" layoutY="441.0" mnemonicParsing="false" onAction="#run" prefHeight="37.0" prefWidth="95.0" text="Вирахувати" />
+      <Button fx:id="clear" layoutX="87.0" layoutY="535.0" mnemonicParsing="false" onAction="#clear" prefHeight="29.0" prefWidth="95.0" text="Очистити" />
+      <TextField fx:id="distance" layoutX="146.0" layoutY="496.0" prefHeight="25.0" prefWidth="95.0" />
+      <Label fx:id="label" layoutX="35.0" layoutY="499.0" prefHeight="20.0" prefWidth="105.0" text="Відстань рівна:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="fromC" layoutX="31.0" layoutY="396.0" prefHeight="25.0" prefWidth="95.0" />
+      <ComboBox fx:id="toC" layoutX="135.0" layoutY="396.0" prefHeight="25.0" prefWidth="95.0" />
+   </children>
+</AnchorPane>
